@@ -1,8 +1,10 @@
 public class Element {
 	int value;
-	Element address;
+	Element prevAddress;
+	Element nextAddress;
 	public Element(int value) {
 		this.value=value;
-		this.address=null;
+		this.prevAddress=null;
+		this.nextAddress=null;
 	}
 }
